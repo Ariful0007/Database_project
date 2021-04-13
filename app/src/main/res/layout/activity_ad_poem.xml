@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ad_poem">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Poem Name"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/poem_name"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:inputType="text"
+        ></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Poet Name"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/poet_name"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:inputType="text"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="Poet Name"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/poem"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:minLines="5"
+        android:maxLines="5000"
+        android:inputType="textMultiLine"
+        android:textAlignment="textStart"
+        android:gravity="start"></EditText>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Add Poem"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/regis"
+        android:textColor="#000"
+        android:textSize="22dp"
+        android:text="Add Poem"
+
+        android:textAllCaps="false"
+
+        ></Button>
+</LinearLayout>

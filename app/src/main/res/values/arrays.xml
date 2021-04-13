@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="font_sizes">
+        <item>Select Age</item>
+        <item>18-25</item>
+        <item>26-30</item>
+        <item>31-35</item>
+        <item>36-40</item>
+        <item>41-45</item>
+        <item>46-50</item>
+        <item>50+</item>
+    </string-array>
+</resources>
